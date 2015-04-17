@@ -1,0 +1,193 @@
+body {
+	font-family: 'Courier';
+	background-color: #f0f0f0;
+	background-image: url('background.jpg');
+	margin: 0px auto;
+	max-width: 1150px;
+}
+
+p {
+	color: #56ECFC;
+}
+			
+#overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	-o-transform : scaleX(-1);
+	-webkit-transform : scaleX(-1);
+	transform : scaleX(-1);
+	-ms-filter : fliph; /*IE*/
+	filter : fliph; /*IE*/
+}
+
+#overlayAgent {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	-o-transform : scaleX(-1);
+	-webkit-transform : scaleX(-1);
+	transform : scaleX(-1);
+	-ms-filter : fliph; /*IE*/
+	filter : fliph; /*IE*/
+}
+
+#videoel {
+	-o-transform : scaleX(-1);
+	-webkit-transform : scaleX(-1);
+	transform : scaleX(-1);
+	-ms-filter : fliph; /*IE*/
+	filter : fliph; /*IE*/
+}
+
+#image {
+	-o-transform : scaleX(-1);
+	-webkit-transform : scaleX(-1);
+	transform : scaleX(-1);
+	-ms-filter : fliph; /*IE*/
+	filter : fliph; /*IE*/
+}
+
+#container {
+	position : relative;
+	width : 370px;
+	margin-left: 300;
+	/*margin : 0px auto;*/
+}
+
+
+#content {
+	position: absolute;
+	margin-top : 20px;
+	margin-left : 20px;
+	margin-right : 100px;
+	max-width: 400px;
+}
+
+#content2 {
+	position: absolute;
+	margin-top : 20px;
+	margin-left : 400px;
+	margin-right : 100px;
+	max-width: 400px;
+}
+#content3 {
+	position: absolute;
+	margin-top : 300px;
+	margin-left : 0px;
+	margin-right : 100px;
+	max-width: 400px;
+}
+			
+#content4 {
+	position: absolute;
+	background-color: rgba(0,0,0,.3);
+	margin-top : 312px;
+	padding-left: 20px;
+	margin-left : 700px;
+	max-width: 500px;
+}
+
+h3 {
+	color: #56ECFC; 
+}
+
+.loadTracking {
+    width: 10em;
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow:hidden;
+    display: block;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.instructions {
+	width: 50em;
+    color: #56ECFC;
+    white-space: nowrap;
+    overflow:hidden;
+    display: inline-block;
+    -webkit-animation: type 7s;
+    animation: type 7s;
+}
+
+.css-typing {
+    width: 60em;
+    color: #56ECFC;
+    font-size: 10px;
+    white-space: nowrap;
+    overflow:hidden;
+    display: block;
+    -webkit-animation: type 2s infinite;
+    animation: type 2s infinite;
+	-webkit-animation-delay: 0s; /* Chrome, Safari, Opera */
+    animation-delay: 0s;
+}
+
+.css-typing2 {
+	width: 40em;
+	color: #56ECFC;
+	font-size: 10px;
+    white-space: nowrap;
+    overflow:hidden;
+    display: block;
+    -webkit-animation: type 5s infinite;
+    animation: type 5s infinite;
+	-webkit-animation-delay: 0s; /* Chrome, Safari, Opera */
+    animation-delay: 0s;
+}
+
+.css-typing3 {
+	width: 30em;
+	color: #56ECFC;
+	font-size: 10px;
+    white-space: normal;
+    overflow:hidden;
+    display: block;
+    -webkit-animation: type 5s infinite;
+    animation: type 5s infinite;
+	-webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+}
+
+.css-typing4 {
+	width: 50em;
+	color: #56ECFC;
+	font-size: 10px;
+    white-space: nowrap;
+    overflow:hidden;
+    display: block;
+    -webkit-animation: type 5s infinite;
+    animation: type 5s infinite;
+	-webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+}
+
+@keyframes type {
+    from { width: 100; }
+}
+
+@-webkit-keyframes type {
+    from { width: 0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}

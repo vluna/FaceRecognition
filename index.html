@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Face Recognition Demo</title>
+		<link rel="shortcut icon" href="../img/victor-luna.png">
+
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+
+	<body>
+		<div id="content">
+			<div id="container">
+				<video id="videoel" width="400" height="300" preload="auto" loop> </video>
+				<canvas id="overlay" width="400" height="300"></canvas>
+			</div>
+
+		</div>
+		
+		<div id="content2">
+			<div id="container">
+	    		<canvas id="image" width="320" height="240"></canvas>
+				<canvas id="overlayAgent" width="320" height="240"></canvas>
+			</div>
+		</div>
+
+	
+		<div id="content3">
+			<div id="numbers">
+				<br>
+				<p>Percentage similarity: </p>
+			    <p class="loadTracking" id="positions"></p>
+				<p id="positions2"></p>
+
+			    <p class="css-typing">Загрузка КГБ ТИП: специальный проект .... Поиск в базе данных ..... </p>
+				<p class="css-typing4"> Поиск агента. Код 294Hf0377YYG Возможности по отслеживанию <br>.... Тип Глаза 9JFKDO8493 8JKd0003 типа Нос Тип Рот 39JF08J9 Мужчина / <br>Женщина проверка Национальность .....</p>
+
+			    <p class="css-typing2">تحميل نوع الكي جي بي: مشروع خاص .... البحث في قاعدة البيانات ..... البحث عن وكيل. كود 294Hf0377YYG تتبع المعالم .... نوع عيون 9JFKDO8493نوع الأنف 8JKd0003 نوع الفم 39JF08J9 ذكر / أنثى الاختيار الجنسية .....</p>
+			    
+			    <p class="css-typing3">KGB TYPEのロード：特別なプロジェクトを.... データベースの検索..... エージェントの検索。コード294Hf0377YYG 機能を追跡.... 추적 기능을 .... 눈 유형 9JFKDO8493 코 형 8JKd0003 口型39JF08J9 男/女檢查 國籍.....</p>
+			</div>
+		</div>
+
+		<div id="content4" class='instructions'>
+			<h3> Welcome to the SIAT Intelligence System </h3>
+			<p> Please allow webcam access before initiating the<br>face match process.<br>Please follow the instructions below:</p>
+			<p> 1. Load the image by clicking on LoadImage and<br>pasting the url when prompt</p>
+			<p> 2. Click on StartTracking to track the faces.<br>**Keep your face in the blue rectangle<br>for better results**</p>
+			<p> 3. Click on GetResults to find out the face match<br>percentage </p>
+		</div>
+
+		<script src="main.js"></script> 
+		<script src=" js/utils.js"></script>
+		<script src=" js/jsfeat-min.js"></script>
+		<script src=" js/frontalface.js"></script>
+		<script src=" js/jsfeat_detect.js"></script>
+		<script src=" js/numeric-1.2.6.min.js"></script>
+		<script src=" js/mosse.js"></script>
+		<script src=" js/left_eye_filter.js"></script>
+		<script src=" js/right_eye_filter.js"></script>
+		<script src=" js/nose_filter.js"></script>
+		<script src=" js/model_pca_20_svm.js"></script>
+		<script src=" js/clm.js"></script>
+		<script src=" js/svmfilter_webgl.js"></script>
+		<script src=" js/svmfilter_fft.js"></script>
+		<script src=" js/mossefilter.js"></script>
+		<script src="js/dat.gui.min.js"></script>
+	  	<script src="js/media.js"></script>
+	  	<script src="js/app-utils.js"></script>
+	</body>
+</html>
